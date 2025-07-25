@@ -13,27 +13,29 @@ class SettingSeeder extends Seeder
     protected $settings = [
         [
             'key'   => 'company_name',
-            'value' => 'Zakaria Labib',
+            // 'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'site_title',
-            'value' => 'Zakaria Labib',
+            // 'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'company_email_address',
-            'value' => 'connect@zakarialabib.com',
+            'value' => 'connect@creativetechdigital.com',
         ],
         [
             'key'   => 'company_phone',
-            'value' => '+212638041919',
+            'value' => '+6281234567890',
         ],
         [
             'key'   => 'company_address',
-            'value' => 'Casablanca, Maroc',
+            'value' => 'Jakarta, Indonesia',
         ],
         [
             'key'   => 'company_tax',
-            'value' => '123456789',
+            'value' => '1234567890',
         ],
         [
             'key'   => 'site_logo',
@@ -49,11 +51,12 @@ class SettingSeeder extends Seeder
         ],
         [
             'key'   => 'seo_meta_title',
-            'value' => 'Zakaria Labib',
+            // 'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'seo_meta_description',
-            'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'social_facebook',
@@ -101,7 +104,7 @@ class SettingSeeder extends Seeder
         ],
         [
             'key'   => 'whatsapp_custom_message',
-            'value' => "Salam, J'ai une Question/Demande d'nformation",
+            'value' => "Selamat datang di Creative Tech Digital! \n\nSilakan kirim pesan Anda di sini, dan kami akan segera merespons.",
         ],
     ];
 
@@ -111,13 +114,13 @@ class SettingSeeder extends Seeder
         foreach ($this->settings as $index => $setting) {
             $result = Settings::create($setting);
 
-            if ( ! $result) {
+            if (! $result) {
                 $this->command->info(sprintf('Insert failed at record %s.', $index));
 
                 return;
             }
         }
 
-        $this->command->info('Inserted '.count($this->settings).' records');
+        $this->command->info('Inserted ' . count($this->settings) . ' records');
     }
 }

@@ -28,6 +28,8 @@ cd bcomponents
 composer install
 npm install 
 npm run build
+
+php artisan db:seed:all
 ```
 
 ## Contributing

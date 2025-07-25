@@ -18,7 +18,7 @@ class LanguagesSeeder extends Seeder
                 'name'       => 'English',
                 'code'       => 'en',
                 'status'     => 1,
-                'is_default' => 0,
+                'is_default' => 1,
             ],
             [
                 'id'         => 2,
@@ -32,8 +32,16 @@ class LanguagesSeeder extends Seeder
                 'name'       => 'French',
                 'code'       => 'fr',
                 'status'     => 1,
-                'is_default' => 1,
+                'is_default' => 0,
             ],
+            [
+                'id'         => 4,
+                'name'       => 'Indonesian',
+                'code'       => 'id',
+                'status'     => 1,
+                'is_default' => 0,
+            ],
+
         ]);
     }
 }

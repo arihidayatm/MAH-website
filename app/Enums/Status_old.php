@@ -9,7 +9,12 @@ use Illuminate\Support\Str;
 enum Status: int
 {
     case ACTIVE = 1;
+
     case INACTIVE = 0;
+
+    case DEFAULT = 2;
+
+    case NOT_DEFAULT = 3;
 
     public static function values(): array
     {
@@ -35,15 +40,5 @@ enum Status: int
         }
 
         return null;
-    }
-
-    public static function defaultValue(): int
-    {
-        return self::ACTIVE->value;
-    }
-
-    public static function notDefaultValue(): int
-    {
-        return self::INACTIVE->value;
     }
 }

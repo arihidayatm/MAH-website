@@ -21,3 +21,9 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+resources/views/components/input/footer.blade.php
+resources/views/components/theme/footer.blade.php
+resources/views/layouts/guest.blade.php
+resources/views/livewire/front/articles/browse.blade.php
+database/seeders/SuperUserSeeder.php
+database/seeders/SettingSeeder.php

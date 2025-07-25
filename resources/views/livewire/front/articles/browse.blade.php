@@ -91,7 +91,7 @@
                                         src="./assets/images/avatar-11.png" alt="avatar">
                                     <div>
                                         <p class="line-clamp-2 font-bold mb-[3px] text-gray-900 text-heading-6">
-                                            Zakaria Labib</p>
+                                            Creative Tech Digital</p>
                                     </div>
                                 </div>
                             </div>

@@ -74,6 +74,15 @@ final class ChannelSeeder extends Seeder
         $divers->items()->createMany([
             ['name' => 'laravelmaroc.com', 'slug' => 'laravelmaroc'],
             ['name' => 'Gaming', 'slug' => 'gaming'],
+            ['name' => 'DevOps', 'slug' => 'devops'],
+            ['name' => 'PHP', 'slug' => 'php'],
+            ['name' => 'Linux', 'slug' => 'linux'],
+            ['name' => 'Serveur', 'slug' => 'serveur'],
+            ['name' => 'Open Source', 'slug' => 'open-source'],
+            ['name' => 'Communauté', 'slug' => 'communaute'],
+            ['name' => 'Tutoriel', 'slug' => 'tutoriel'],
+            ['name' => 'Astuces', 'slug' => 'astuces'],
+            ['name' => 'Event', 'slug' => 'event'],
         ]);
     }
 }

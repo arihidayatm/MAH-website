@@ -76,8 +76,8 @@
     </div>
     <div class="pt-5 flex items-center justify-center">
         <a class="inline-block text-sm text-gray-20 uppercase hover:text-green-500"
-            href="https://behance.net/zakarialabib" target="_blank">handcrafted
-            by zakaria labib
+            href="https://creativetechdigital.com" target="_blank">handcrafted
+            by Creative Tech Digital
         </a>
     </div>
 </section>

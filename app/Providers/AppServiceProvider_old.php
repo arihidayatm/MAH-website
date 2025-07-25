@@ -23,13 +23,36 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
+    // public function boot(): void
+    // {
+
+    //     $languages = cache()->rememberForever('languages', static function () {
+    //         return Session::has('language')
+    //             ? Language::where('code', Session::get('language'))->get()
+    //             : Language::where('is_default', Status::DEFAULT)->get();
+    //     });
+
+    //     $language = Language::where('is_default', true)->first();
+
+    //     View::share('languages', $languages);
+
+    //     View::share('language', $language);
+
+    //     View::composer('*', function ($view) {
+    //         $view->with('statuses', function () {
+    //             return Cache::remember('statuses', 3600, function () {
+    //                 return Status::values();
+    //             });
+    //         });
+    //     });
+    // }
     public function boot(): void
     {
         if (Schema::hasTable('cache')) {
             $languages = cache()->rememberForever('languages', static function () {
                 return Session::has('language')
                     ? Language::where('code', Session::get('language'))->get()
-                    : Language::where('is_default', Status::defaultValue())->get();
+                    : Language::where('is_default', Status::DEFAULT)->get();
             });
 
             $language = Language::where('is_default', true)->first();
