@@ -13,11 +13,11 @@ class SettingSeeder extends Seeder
     protected $settings = [
         [
             'key'   => 'company_name',
-            'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'site_title',
-            'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'company_email_address',
@@ -49,11 +49,11 @@ class SettingSeeder extends Seeder
         ],
         [
             'key'   => 'seo_meta_title',
-            'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'seo_meta_description',
-            'value' => 'Zakaria Labib',
+            'value' => 'Creative Tech Digital',
         ],
         [
             'key'   => 'social_facebook',

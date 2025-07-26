@@ -13,17 +13,17 @@
     <link rel="prerender" href="{{ request()->getSchemeAndHttpHost() }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="title" content="{{ $title ?? 'Zakaria Labib' }}">
+    <meta name="title" content="{{ $title ?? 'CreativeTechDigital' }}">
     <meta name="keywords" content="tailwindcss, laravel, ui components, blade templates, ui elements, html, css" />
     <meta name="description"
         content="Super simple but elegant Laravel blade-based UI components using TailwindCSS and vanilla Javascript. All for free!" />
 
-    <meta property="og:title" content="{{ $title ?? 'Zakaria Labib' }}">
+    <meta property="og:title" content="{{ $title ?? 'CreativeTechDigital' }}">
     <meta property="og:url" content="/" />
     <meta property="og:locale" content="{{ app()->getLocale() }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="{{ $title ?? 'Zakaria Labib' }}" />
-    <meta name="author" content="{{ $title ?? 'Zakaria Labib' }}">
+    <meta property="og:site_name" content="{{ $title ?? 'CreativeTechDigital' }}" />
+    <meta name="author" content="{{ $title ?? 'CreativeTechDigital' }}">
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <meta name="theme-color" content="#000000">
@@ -31,7 +31,7 @@
     <link rel="apple-touch-icon" href="/images/icon-192x192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="{{ $title ?? 'Zakaria Labib' }}">
+    <meta name="apple-mobile-web-app-title" content="{{ $title ?? 'CreativeTechDigital' }}">
 
     <meta name="robots" content="all,follow">
     <link rel="preconnect" href="https://fonts.googleapis.com">

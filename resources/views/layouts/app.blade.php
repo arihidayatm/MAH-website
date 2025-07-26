@@ -19,7 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro:wght@300&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <title>{{ $title ?? '' }} | {{ config('app.name', 'ZakariaLabib') }} </title>
+    <title>{{ $title ?? '' }} | {{ config('app.name', 'CreativeTechDigital') }} </title>
 
     @stack('styles')
 
@@ -41,10 +41,11 @@
 <body class="font-sans antialiased m-0 bg-gray-900">
     <div class="min-h-screen ">
         <section class="relative">
-            
-            <x-header :title="'ZakariaLabib'" class="bg-green-300 bg-opacity-60" />
 
-            <div class="bg-green-300 text-green-800 my-auto mt-10 w-3/4 p-10 mx-auto shadow-sm rounded-lg bg-opacity-60">
+            <x-header :title="'CreativeTechDigital'" class="bg-green-300 bg-opacity-60" />
+
+            <div
+                class="bg-green-300 text-green-800 my-auto mt-10 w-3/4 p-10 mx-auto shadow-sm rounded-lg bg-opacity-60">
                 @yield('content')
 
                 @isset($slot)

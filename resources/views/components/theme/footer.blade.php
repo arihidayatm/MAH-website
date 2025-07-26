@@ -47,7 +47,7 @@
                     </span>
                     <a href="javascript:"
                         class="underline text-green-300 hover:text-blue-600 focus:text-blue-600 transition ease-in-out">
-                        {{ settings('site_title') ?? 'Zakaria Labib' }} </a>
+                        {{ settings('site_title') ?? 'Creative Tech Digital' }} </a>
                 </div>
                 <div>
                     <span>Need Help ?</span>

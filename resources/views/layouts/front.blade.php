@@ -15,7 +15,7 @@
     @endif --}}
 
     <title>
-        {{ config('app.name', 'ZakariaLabib') }} || @yield('title')
+        {{ config('app.name', 'CreativeTechDigital') }} || @yield('title')
     </title>
 
     @hasSection('meta')
@@ -30,13 +30,13 @@
 
     <meta property="og:locale" content="{{ app()->getLocale() }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="zakarialabib" />
-    <meta name="author" content="zakarialabib">
+    <meta property="og:site_name" content="CreativeTechDigital" />
+    <meta name="author" content="CreativeTechDigital">
     <link rel="canonical" href="{{ URL::current() }}">
     <!-- Twitter sharing -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ isset($title) ? $title . ' | ' : '' }}{{ config('app.name') }}">
-    <meta name="twitter:creator" content="@zakarialabib" />
+    <meta name="twitter:creator" content="@CreativeTechDigital" />
     <!-- /Twitter sharing -->
 
     <!-- Facebook sharing -->
@@ -88,8 +88,8 @@
     {{-- <x-loading-mask /> --}}
 
     <section class="relative">
-        
-        <x-header :title="'ZakariaLabib'" />
+
+        <x-header :title="'CreativeTechDigital'" />
 
         @yield('content')
 

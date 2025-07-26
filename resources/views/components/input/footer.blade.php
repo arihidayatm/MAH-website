@@ -35,19 +35,19 @@
                         <li class="mb-6">
                             <h4 class="mb-2 text-gray-50">{{ __('Telephone') }}</h4>
                             <a class="text-white hover:text-green-600 hover:underline" href="tel:#">
-                                +212 6 00 00 00 00
+                                +62 812 60 00 00 00
                             </a>
                         </li>
                         <li class="mb-6">
                             <h4 class="mb-2 text-gray-50">{{ __('Email') }}</h4>
                             <a class="text-white hover:text-green-600 hover:underline" href="mailto:#">
-                                mail@zakarialabib.com
+                                mail@creativetechdigital.com
                             </a>
                         </li>
                         <li>
                             <h4 class="mb-2 text-gray-50">{{ __('Whatsapp') }}</h4>
                             <a class="text-white hover:text-green-600 hover:underline" href="#" target="_blank">
-                                +212 6 00 00 00 00
+                                +628 12 60 00 00 00
                             </a>
                         </li>
                     </ul>

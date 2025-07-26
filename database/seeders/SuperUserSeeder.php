@@ -52,10 +52,10 @@ class SuperUserSeeder extends Seeder
             ['email' => 'admin@creativetechdigital.com'],
             [
                 'id'         => 99,
-                'name'       => 'Admin',
+                'name'       => 'Super Admin',
                 'username'   => 'creativetechdigital',
                 'password'   => Hash::make('password'),
-                'avatar'     => 'avatar.png',
+                // 'avatar'     => 'avatar.png',
                 'created_at' => now(),
             ]
         );

@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             PageSeeder::class,
             SettingSeeder::class,
             SuperUserSeeder::class,
-            ChannelSeeder::class,
+            // ChannelSeeder::class,
             // TagSeeder::class,
         ]);
     }
